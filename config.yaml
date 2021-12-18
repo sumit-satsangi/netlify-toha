@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://sumits.netlify.app§
 
 languageCode: en-us
-title: "John's Blog"
+title: "Sumit Satsangi"
 theme: "toha"
 
 # Manage languages
@@ -10,9 +10,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+#  bn:
+#    languageName: বাংলা
+#    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -36,7 +36,7 @@ outputs:
     - JSON
 
 # Enable Google Analytics
-googleAnalytics: UA-122321624-2
+#googleAnalytics: UA-122321624-2
 
 # Enable global emoji support
 enableEmoji: true
@@ -44,7 +44,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background.jpeg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -54,7 +54,9 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+#  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/sumit-satsangi/netlify-toha
+
   # Default branch of your Git repo
   gitBranch: source
 
@@ -85,9 +87,9 @@ params:
 
     # Enable comment feature. There, should be only one of them.
     comment:
-      enable: false
+      enable: true
       disqus:
-        shortName: toha-example-site
+        shortName: sumit-satsangi-site
       # valine:
       #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
       #   appKey: pVrT3C85KGIuk27t07eh6bUC
