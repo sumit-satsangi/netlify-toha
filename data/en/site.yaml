@@ -12,8 +12,8 @@ description: Portfolio and personal blog of Sumit Satsangi.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Docs
-  url: https://toha-guides.netlify.app/posts/
+- name: LinkedIn
+  url: https://linkedin.com/in/sumitsatsangi/
 
 # Specify OpenGraph Headers
 openGraph:
