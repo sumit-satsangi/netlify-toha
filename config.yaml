@@ -89,7 +89,7 @@ params:
     comment:
       enable: true
       disqus:
-        shortName: sumit-satsangi-site
+        shortName: sumitsatsangi
       # valine:
       #   appId: HTV6askWxVo3vOxlqjjaq2hd-MsYXbMMI
       #   appKey: pVrT3C85KGIuk27t07eh6bUC
