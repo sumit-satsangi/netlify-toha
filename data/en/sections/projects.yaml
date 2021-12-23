@@ -11,15 +11,15 @@ section:
 # filter buttons
 buttons:
 - name: All
-  filter: "all"
+  filter: "All"
 - name: Tableau
-  filter: "tableau"
+  filter: "Tableau"
 - name: Visualization
-  filter: "visualization"
-- name: Power BI
-  filter: "powerbi"
+  filter: "Visualization"
+- name: PowerBI
+  filter: "PowerBI"
 - name: Statistics
-  filter: "statistics"
+  filter: "Statistics"
 
 # your projects
 projects:
@@ -30,7 +30,7 @@ projects:
   repo: https://github.com/sumit-satsangi/MavenChallenges/tree/2021.05-Toy-Challenge # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Maven Analytics Toy's Challenge to help formulate an expansion plan with the reasons and supporting data.
-  tags: ["powerbi", "visualization"]
+  tags: ["PowerBI", "Visualization"]
 
 - name: Maven's Restaurant Challenge
   # logo: /images/sections/projects/tensorflow.png
@@ -39,7 +39,7 @@ projects:
   #repo: https://github.com/tensorflow/tensorflow
   url: "https://public.tableau.com/app/profile/sumitsatsangi/viz/Maven_Restaurant_Challenge_Sumit/Dashboard"
   summary: Maven Analytics Restaurant Challenge to outline what you'd be looking for in a restaurant to invest in and contains the supporting data from the analysis.
-  tags: ["tableau", "visualization"]
+  tags: ["Tableau", "Visualization"]
 
 # - name: A sample academic paper
 #   role: Team Lead
