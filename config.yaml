@@ -8,6 +8,11 @@ theme: "toha"
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 disableLanguages : ['bn', 'ja']
 
+ignoreFiles:
+#    -\.Rmd$
+    - \.Rmarkdown$
+    - _cache$
+
 languages:
   en:
     languageName: English
