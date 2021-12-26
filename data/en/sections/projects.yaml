@@ -11,7 +11,7 @@ section:
 # filter buttons
 buttons:
 - name: All
-  filter: "All"
+  filter: "all"
 - name: Tableau
   filter: "Tableau"
 - name: Visualization
