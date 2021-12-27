@@ -11,27 +11,20 @@ tags: ["Series", "IBS"]
 categories: ["Series-IBS"]
 ---
 
-<span class="firstcharacter">L</span>et's start off in understanding the basics of Statistics 
-</br>
-</br>
-</br>
+<span class="firstcharacter">T</span>his m
 
-##### 1| Sampling and Data
+![Introductory Business Statistics](ibs.png)
 
-We use Statistics in our day to day life more often than we probably realize. Whenever you make a decision about the correctness of a statement, claim or "fact", with the help of the given sample, you are effectively using <ins>**"Statistics."**</ins>
-
-
-<!-- CSS and design of the font starts from here -->
 <style>
 body {
 text-align: justify
 }
 </style>
-
 <style>
 .firstcharacter {
   color: #903;
   float: left;
+  font-family: Georgia;
   font-size: 75px;
   line-height: 60px;
   padding-top: 4px;
@@ -39,7 +32,6 @@ text-align: justify
   padding-left: 3px;
 }
 </style>
-
 <style>
 .comment {
   color: #999999;
