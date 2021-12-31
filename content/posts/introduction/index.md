@@ -23,10 +23,9 @@ Greeting! This is an introduction post. This post tests the followings:
 
 </br><span class="comment">Blatantely copied from my own post at <a href="https://sumitsatsangi.wordpress.com/2021/05/05/first-post/">Wordpress</a>.<span class="comment"></span></p>
  </p></br>
-<span class="firstcharacter">T</span>his marks the first day in a long time that I am writing something directly over Internet. No filters and no preparation. Only a couple of tweaks and here I am, brutal to myself, open to all.
-
-The last time I wrote on Internet, other than the silly emails was way back in 2007. Then the life changed so as me. Here is 2021, the pandemic and me. Boys need hobbies.
-
+<span class="firstcharacter">T</span>his marks the first day in a long time that I am writing something directly over Internet. No filters and no preparation. Only a couple of tweaks and here I am, brutal to myself, open to all. 
+</p>
+The last time I wrote on Internet, other than the silly emails was way back in 2007. Then the life changed so as me. Here is 2021, the pandemic and me. Boys need hobbies.</p>
 Last I checked, I was a full-time husband and a father. Along with that, I am a part time dreamer. Looking at a lot of videos talking about writing something on a daily basis or publish some you tube channels made me think that:
 
 1. I am no expert in the area I will pick.
@@ -53,7 +52,7 @@ I will try to keep uploading new content now and then. Strictly speaking, there 
 </br>
 How can a blog on a markdown website not have an R Code
 
-```{r, collapse=TRUE, message=TRUE}
+```{bash}
 x <- "Hello World!"
 print(x)
 ```
