@@ -1,23 +1,22 @@
 ---
-title: '2022-01-02'
-date: '2022-01-02'
+title: 2022-01-02
+date: 2022-01-02
 menu:
   sidebar:
-    name: '2022-01-02'
-    identifier: '2022-01-02'
+    name: 2022-01-02
+    identifier: 2022-01-02
     parent: IBS
     weight: 21
-tags:
-- Series
-- IBS
-categories: Series-IBS
+tags: ["Series", "IBS"]
+categories: ["Series-IBS"]
+
 ---
 <span class="firstcharacter">T</span>his is in continuation with the previous post. We are going to look at how the data sample is done and what could cause variation in it.
 </br>
 </p>
 </br>
 </p>
-
+ 
 ### 1.2. Data, Sampling, and Variation in Data and Sampling
 
 As mentioned earlier, it is generally not feasible to collect data from entire population. Data can be collected from "Sample" inside the population. But the statistician has to make sure that the sample covers all the variations in the population.
