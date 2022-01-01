@@ -11,9 +11,6 @@ tags: ["Series", "IBS"]
 categories: ["Series-IBS"]
 output: html_document
 ---
-
-
-
 <span class="firstcharacter">T</span>his is in continuation with the previous post. We are going to look at how the data sample is done and what could cause variation in it.
 </br>
 </p>

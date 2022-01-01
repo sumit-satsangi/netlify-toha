@@ -11,11 +11,6 @@ tags: ["Series", "IBS"]
 categories: ["Series-IBS"]
 output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 <span class="firstcharacter">T</span>his is in continuation with the previous post. We are going to look at how the data sample is done and what could cause variation in it.
 </br>
 </p>
