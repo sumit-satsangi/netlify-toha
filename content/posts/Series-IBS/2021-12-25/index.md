@@ -6,7 +6,7 @@ menu:
     name: 2021-12-25
     identifier: 2021-12-25
     parent: IBS
-    weight: 10
+    weight: 20
 tags: ["Series", "IBS"]
 categories: ["Series-IBS"]
 
