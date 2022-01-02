@@ -1,123 +1,76 @@
 ---
-title: 2021-12-25
-date: 2021-12-25
+title: 2022-01-01
+date: 2022-01-01
 menu:
   sidebar:
-    name: 2021-12-25
-    identifier: 2021-12-25
+    name: 2022-01-01
+    identifier: 2022-01-01
     parent: IBS
-    weight: 20
+    weight: 21
 tags: ["Series", "IBS"]
 categories: ["Series-IBS"]
 
 ---
 
-<span class="firstcharacter">S</span>tatistics is still a complex limbo to many. When I first read the book, the ease of sharing logic was so awesome that I have kept it as one of my prized collections.
 
-Offlate, I have started reading it again and I guess it is going to be great if I can share the details of the journey with my fellow enthusiasts.
-
-The book:
-{{< img src="ibs.png" width="20%" align="center" title="Introductory Business Statistics" >}}
-
-Amazon affiliate link: <a href="https://amzn.to/32KoM18" target="_blank">https://amzn.to/32KoM18</a></br>
-<span class="comment">* Control + click or Cmd + click to open in a new tab.</span>
+<span class="firstcharacter">T</span>his is in continuation with the previous post. We are going to look at how the data sample is done and what could cause variation in it.
 </br>
+</p>
+</br>
+</p>
+ 
+### 1.2. Data, Sampling, and Variation in Data and Sampling
 
-{{< alert type="danger" >}} There are going to be excerpts from the book "Introductory Business Statistics" by Barbara Illowski. This material may be protected by copyright. I am not the owner of the content. {{< /alert >}}
+As mentioned earlier, it is generally not feasible to collect data from entire population. Data can be collected from "Sample" inside the population. But the statistician has to make sure that the sample covers all the variations in the population.
 
-<!--
-SHORT CODES for highlighting stuff:
+{{< img src="pop_sample.jpeg" width="50%" align="center" title="Data Table" >}}
 
-{{< alert type="success" >}} This is sample alert with type="success". {{< /alert >}}
-{{< alert type="danger" >}} This is sample alert with type="danger". {{< /alert >}}
-{{< alert type="warning" >}} This is sample alert with type="warning". {{< /alert >}}
-{{< alert type="info" >}} This is sample alert with type="info". {{< /alert >}}
-{{< alert type="dark" >}} This is sample alert with type="dark". {{< /alert >}}
-{{< alert type="primary" >}} This is sample alert with type="primary". {{< /alert >}}
-{{< alert type="secondary" >}} This is sample alert with type="secondary". {{< /alert >}}
+##### 1.2.1. Types of Data
 
--->
+{{< img src="data_table.jpeg" width="50%" align="center" title="Data Table" >}}
 
-## 1. Statistics
-
-Typically when you read any article or watch news, you are given sample information which helps you to make a decision about the correctness of the statement, claim, or "fact." Statistical methods help in making the "Best Educated guess." Generally, Statistics and Probability work together.
-
-{{< alert type="warning" >}} The science of <b><u>Statistics</b></u> deals with the collection, analysis, interpretation, and presentation of <b>data</b>.{{< /alert >}}
+Most data can be put into the following categories:
+- **Qualitative:** Often called as Categorical data. The values generally are in Strings and show some sort of quality of the Variable. As shown in the second column "Color". The values are the names of the colours which define the color of that body part.
+- **Quantitative:** This will always be a number. All the calculations are done on this category. It is further divided into two parts depending on whether you are counting or measuring-
+    - **Discrete:** All data that are the result of counting are called Quantitative Discrete Data. It is always a whole number.
+    - **Continuous:** Data that may include fractions, decimals or irrational numbers are called Quantitative Continuous Data. It is often due to the measurements like lengths, weights or times.
 
 
-### 1.1. Definitions of Statistics, Probability and Key Terms
-
-##### 1.1.1. Statistics
-- **Descriptive:**  Organizing and summarizing data by graphing and by using numbers.
-- **Inferential:**  The formal methods to draw conclusion from "good" data.
-
-##### 1.1.2. Probability
-- Mathematical tool to study randomness. It deals with the chance or "likelihood" of an event occurring.
-
-##### 1.1.3. Key Terms
-- **Population:**   Complete collection of persons, things or objects under study.
-- **Sample:**       The idea of sampling is to select a portion (or subset) of the larger population and study that portion (the sample) to gain information about the population. Data are the result of sampling from a population.
-    - **Statistic:** Represents a property of the sample. It is an estimate of a population parameter.
-    - **Parameter:** Numeric characteristic of the whole population that can be estimated by a statistic.
-    - **Variable:**  It is a characteristic or measurement that can be determined for each member of a population.
-        - **Numerical:** Values with equal units. A discrete or continuous number. You do all mathematical calculations on it.
-        - **Categorical:** They are essentially categories to classify your data. You show your final computation segregated by this.
-
-{{< alert type="primary" >}}
-<details>
-<summary>Example: </summary>
-{{< alert type="warning" >}}
-Q: Tom and Hardy got 20 and 25 marks out of 30 in Science subject.
-1. Categorical Variable:
-    - Tom
-    - Hardy
-    - Science
-2. Numerical Variable:
-    - 20
-    - 25
-    - 30
-{{< /alert >}}
-</details>
-{{< /alert >}}
-
+##### 1.2.2. Sampling
 
 {{< alert type="warning" >}}
-<u>Data</u> are the actual values of the variable. They may be numbers or they may be words. <u>DATUM</u> is a single value.
+A <b><u>sample</b></u> should have the same characteristics as the <b>population</b> it is representing.
 {{< /alert >}}
 
-> Note: The words **"mean"** and **"average"** are often used interchangeably. The substitution of one word for the other is common practice. The technical term is "arithmetic mean" amd "average" is technically a center location. However, in practice among non-statisticians, "average" is commonly accepted for "arithmetic mean."
+Statisticians use various methods of random sampling to achieve this. There are several different methods of **random sampling.** True random sampling is done with replacement. That is, once a member is picked, that member goes back into the population and thus may be chosen more than once. However for practical reasons, in most populations, simple random sampling is done without replacement. Surveys are typically done without replacement. That is, a member of the population may be chosen only once.
+
+- <u>**Simple Random Sample:**</u> Any group of _n_ individuals is equally likely to be chosen as any other group of _n_ individuals.
+
+- <u>**Stratified Sample:**</u> To choose a stratified sample, divide the population into groups called strata and then take a proportionate number from each stratum. For example, you could stratify (group) your college population by department and then choose a proportionate simple random sample from each stratum (each department) to get a stratified random sample. 
+    {{< img src="strata.jpeg" width="50%" align="center" title="Strata" >}}
+
+- <u>**Cluster Sample:**</u> Divide the population into clusters (groups) and then randomly select some of the clusters.
+    {{< img src="cluster.jpeg" width="20%" align="center" title="Cluster" >}}
+
+- <u>**Systematic Sample:**</u> Randomly select a starting point and take every nth piece of data from a listing of the population.
 
 
-{{< alert type="warning" >}}
-Example 1.1:</br>
-Determine what the key terms refer to in the following study. We want to know the average (mean) amount of money first year college students spend at ABC College on school supplies that do not include books. We randomly surveyed 100 first year students at the college. Three of those students spent $150, $200, and $225, respectively.
-
-{{< alert type="primary" >}}
-<details>
-<summary>Solution 1.1:</summary>
-
-- The <u>population</u> is all first year students attending ABC College this term.
-- The <u>sample</u> could be all students enrolled in one section of a beginning statistics course at ABC College (although this sample may not represent the entire population).
-- The <u>parameter</u> is the average (mean) amount of money spent (excluding books) by first year college students at ABC College this term: the population mean.
-- The <u>statistic</u> is the average (mean) amount of money spent (excluding books) by first year college students in the sample.
-- The <u>variable</u> could be the amount of money spent (excluding books) by one first year student. Let X = the amount of money spent (excluding books) by one first year student attending ABC College.
-- The <u>data</u> are the dollar amounts spent by the first year students. Examples of the data are $150, $200, and $225.”
-
-</details>
-{{< /alert >}}
-{{< /alert >}}
+**Non Random Sampling:**
+- <u>**Convenience Sampling:**</u> It is a non random sampling. This type of sampling involves using results that are readily available. Sampling data should be done very carefully with Convenience Sampling. Collecting data carelessly can have devastating results.
 
 
+When you analyze data, it is important to be aware of sampling errors and non-sampling errors. The actual process of sampling causes sampling errors. A sampling bias is created when a sample is collected from a population and some members of the population are not as likely to be chosen as others.
 
 
-<!-- 
----------------------STYLE SHEETS--------------------------------------
--->
+##### 1.2.3. Variation in Data
 
+Variation is always present in any real life data. If two or more samples from the same population are taken randomly and having almost same characteristics of the population will still be different from each other in real life. 
+
+
+-------------------------------------------------------------------------------------
 <style>
 body {
-text-align: justify;
-  line-height: 30px;
+text-align: justify
 }
 </style>
 
@@ -128,7 +81,7 @@ text-align: justify;
   font-family: Georgia;
   font-size: 75px;
   line-height: 60px;
-  padding-top: 0px;
+  padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
 }
