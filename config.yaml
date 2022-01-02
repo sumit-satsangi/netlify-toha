@@ -9,7 +9,7 @@ theme: "toha"
 disableLanguages : ['bn', 'ja']
 
 ignoreFiles:
-    -\.Rmd$
+#    -\.Rmd$
     - \.Rmarkdown$
     - _cache$
 
