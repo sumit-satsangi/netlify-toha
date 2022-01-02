@@ -1,14 +1,14 @@
 ---
-# title: 2021-12-31
-# date: 2021-12-31
-# menu:
-#   sidebar:
-#     name: 2021-12-31
-#     identifier: 2021-12-31
-#     parent: IBS
-#     weight: 11
-# tags: ["Series", "IBS"]
-# categories: ["Series-IBS"]
+title: Basics of R
+date: 2022-01-02
+menu:
+  sidebar:
+    name: Basics of R
+    identifier: Basics of R
+    parent: R
+    weight: 30
+tags: ["Series", "R"]
+categories: ["Series-R"]
 output: html_document
 ---
 
