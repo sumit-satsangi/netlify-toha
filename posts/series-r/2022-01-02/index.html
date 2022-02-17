@@ -1,0 +1,257 @@
+<!doctype html><html>
+<head>
+<title>Basics</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<link rel=stylesheet href=/css/bootstrap.min.css>
+<link rel=stylesheet href=/css/layouts/main.css>
+<link rel=stylesheet href=/css/navigators/navbar.css>
+<link rel=stylesheet href=/css/plyr.css>
+<link rel=stylesheet href=/css/flag-icon.min.css>
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
+<link rel=icon type=image/png href=/images/site/favicon_hueaca71883553b9e3769d84235ad5e29e_305428_42x0_resize_box_3.png>
+<meta property="og:title" content="Basics">
+<meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sumitsatsangi.io/posts/series-r/2022-01-02/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-01-02T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-01-02T00:00:00+00:00">
+<meta name=description content="Basics">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css>
+<link rel=stylesheet href=/css/layouts/single.css>
+<link rel=stylesheet href=/css/navigators/sidebar.css>
+<link rel=stylesheet href=/css/style.css>
+</head>
+<body data-spy=scroll data-target=#TableOfContents data-offset=80>
+<div class="container-fluid bg-dimmed wrapper">
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+<div class=container>
+<button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+<span class=navbar-toggler-icon></span>
+</button>
+<a class=navbar-brand href=/>
+<img src=/images/site/main-logo_hueaca71883553b9e3769d84235ad5e29e_305428_42x0_resize_box_3.png alt=Logo>
+Sumit Satsangi</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse lang-selector" id=top-nav-items>
+<ul class="navbar-nav ml-auto">
+</ul>
+</div>
+</div>
+<img src=/images/site/main-logo_hueaca71883553b9e3769d84235ad5e29e_305428_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/inverted-logo_hueaca71883553b9e3769d84235ad5e29e_305428_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo">
+</nav>
+<section class=sidebar-section id=sidebar-section>
+<div class=sidebar-holder>
+<div class=sidebar id=sidebar>
+<form class=mx-auto method=get action=/search>
+<input type=text name=keyword placeholder=Search data-search id=search-box>
+</form>
+<div class=sidebar-tree>
+<ul class=tree id=tree>
+<li id=list-heading><a href=/posts data-filter=all>Posts</a></li>
+<div class=subtree>
+<li><a href=/posts/introduction/ title=Introduction>Introduction</a></li>
+<li>
+<i class="fas fa-plus-circle"></i><a href=/posts/series-ibs/>Series-IBS</a>
+<ul>
+<li><a href=/posts/series-ibs/2021-12-25/ title=2021-12-25>2021-12-25</a></li>
+<li><a href=/posts/series-ibs/2022-01-01/ title=2022-01-01>2022-01-01</a></li>
+</ul>
+</li>
+<li>
+<i class="fas fa-minus-circle"></i><a class=active href=/posts/series-r/>Series-R</a>
+<ul class=active>
+<li><a class=active href=/posts/series-r/2022-01-02/ title=Basics>Basics</a></li>
+</ul>
+</li>
+</div>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class=content-section id=content-section>
+<div class=content>
+<div class="container p-0 read-area">
+<div class="hero-area col-sm-12" id=hero-area style=background-image:url(https://sumitsatsangi.io/posts/series-r/2022-01-02/hero.png)>
+</div>
+<div class=page-content>
+<div class="author-profile ml-auto align-self-lg-center">
+<img class=rounded-circle src=/images/author/avatar_hu280e1b6727c0e2343cda63587657a013_34419_120x120_fit_q75_box.jpeg alt="Author Image">
+<h5 class=author-name>Sumit Satsangi</h5>
+<p>January 2, 2022</p>
+</div>
+<div class=title>
+<h1>Basics</h1>
+</div>
+<div class=taxonomy-terms>
+<ul>
+<li class=rounded><a href=/tags/series class="btn, btn-sm">Series</a></li>
+<li class=rounded><a href=/tags/r class="btn, btn-sm">R</a></li>
+</ul>
+</div>
+<div class=post-content id=post-content>
+<h2 id=r-markdown>R Markdown</h2>
+<p><span class=firstcharacter>T</span>his is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href=http://rmarkdown.rstudio.com>http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=color:#a6e22e>summary</span>(cars)
+</code></pre></div><pre tabindex=0><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+</code></pre><h2 id=including-plots>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<img src=https://sumitsatsangi.io/posts/series-r/2022-01-02/index_files/figure-html/pressure-1.png width=672>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<style>body{text-align:justify}</style>
+<style>.firstcharacter{color:#903;float:left;font-family:Georgia;font-size:75px;line-height:60px;padding-top:4px;padding-right:8px;padding-left:3px}</style>
+<style>.comment{color:#999;float:left;font-size:12px;font-style:italic}</style>
+</div>
+<div class="row pl-3 pr-3">
+<div class="col-md-6 share-buttons">
+<strong>Share on:</strong>
+<a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsumitsatsangi.io%2fposts%2fseries-r%2f2022-01-02%2f" target=_blank>
+<i class="fab fa-facebook"></i>
+</a>
+<a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fsumitsatsangi.io%2fposts%2fseries-r%2f2022-01-02%2f&text=Basics&via=Sumit%20Satsangi" target=_blank>
+<i class="fab fa-twitter"></i>
+</a>
+<a class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fsumitsatsangi.io%2fposts%2fseries-r%2f2022-01-02%2f&title=Basics" target=_blank>
+<i class="fab fa-reddit"></i>
+</a>
+<a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fsumitsatsangi.io%2fposts%2fseries-r%2f2022-01-02%2f&title=Basics" target=_blank>
+<i class="fab fa-linkedin"></i>
+</a>
+<a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Basics https%3a%2f%2fsumitsatsangi.io%2fposts%2fseries-r%2f2022-01-02%2f" target=_blank>
+<i class="fab fa-whatsapp"></i>
+</a>
+<a class="btn btn-sm email-btn" href="mailto:?subject=Basics&body=https%3a%2f%2fsumitsatsangi.io%2fposts%2fseries-r%2f2022-01-02%2f" target=_blank>
+<i class="fas fa-envelope-open-text"></i>
+</a>
+</div>
+<div class="col-md-6 btn-improve-page">
+<a href=https://github.com/sumit-satsangi/netlify-toha/edit/source/content/posts/Series-R/2022-01-02/index.md title="Improve this page" target=_blank rel=noopener>
+<i class="fas fa-code-branch"></i>
+Improve this page
+</a>
+</div>
+</div>
+<hr>
+<div class="row next-prev-navigator">
+<div class="col-md-6 previous-article">
+<a href=/posts/series-ibs/2022-01-01/ title=2022-01-01 class="btn btn-outline-info">
+<div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+<div class=next-prev-text>2022-01-01</div>
+</a>
+</div>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a>
+</section>
+<section class=toc-section id=toc-section>
+<div class=toc-holder>
+<h5 class="text-center pl-3">Table of Contents</h5>
+<hr>
+<div class=toc>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#r-markdown>R Markdown</a></li>
+<li><a href=#including-plots>Including Plots</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</section>
+</div>
+<footer class="container-fluid text-center align-content-center footer pb-2">
+<div class="container pt-5">
+<div class="row text-left">
+<div class="col-md-4 col-sm-12">
+<h5>Navigation</h5>
+<ul>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#recent-posts>Recent Posts</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#about>About</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#skills>Skills</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#experiences>Experience</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#education>Education</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#projects>Projects</a>
+</li>
+<li class=nav-item>
+<a class=smooth-scroll href=https://sumitsatsangi.io#accomplishments>Accomplishments</a>
+</li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-12">
+<h5>Contact me:</h5>
+<ul>
+<li><a href=mailto:sumit.satsangi@gmail.com target=_blank rel=noopener>
+<span><i class="fas fa-envelope"></i></span> <span>sumit.satsangi@gmail.com</span>
+</a></li>
+<li><a href=https://github.com/sumit-satsangi target=_blank rel=noopener>
+<span><i class="fab fa-github"></i></span> <span>sumit-satsangi</span>
+</a></li>
+<li><a href=https://www.linkedin.com/in/sumitsatsangi target=_blank rel=noopener>
+<span><i class="fab fa-linkedin"></i></span> <span>Sumit Satsangi</span>
+</a></li>
+<li><span><i class="fas fa-phone-alt"></i></span> <span>+91-9XX XXX XX31</span></li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+<div class=container>
+<p id=disclaimer><strong>Liability Notice:</strong> You can use the content of this website for non-commercial, commercial, or private use. Though a link-back and attribution is appreciated as a lot of time and efforts are done to create the content.</p>
+</div>
+<hr>
+<div class=container>
+<div class="row text-left">
+<div class=col-md-4>
+<a id=theme href=https://github.com/hossainemruz/toha target=_blank rel=noopener>
+<img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
+Toha
+</a>
+</div>
+<div class="col-md-4 text-center">© 2021 Copyright.</div>
+<div class="col-md-4 text-right">
+<a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
+<script type=text/javascript src=/js/popper.min.js></script>
+<script type=text/javascript src=/js/bootstrap.min.js></script>
+<script type=text/javascript src=/js/navbar.js></script>
+<script type=text/javascript src=/js/plyr.js></script>
+<script type=text/javascript src=/js/main.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script>
+<script src=/js/single.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>
