@@ -1,5 +1,5 @@
 ---
-title: Basics
+title: Basics (Part 1)
 date: 2022-01-02
 menu:
   sidebar:
@@ -13,30 +13,62 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+<span class="firstcharacter">I</span>t is always good to clear the concepts first and then take baby steps to execute what you've learnt. This is going to be in parts and I will share some basic concepts behind R here. Let's dive in.
+</br>
 
-<span class="firstcharacter">T</span>his is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Programming Styles in R
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+There are three main programming styles that R uses:
+- Object Oriented Programming
+- Array Programming &
+- Functional Programming
 
-```{r cars}
+Let's look into them in detail:
+
+
+#### Object Oriented Programming
+
+Objects can be created in R which will hold the information with attributes.
+
+```{r echo=TRUE, background='#999999'}
+data(iris)
+head(iris, 6)
+```
+
+{{< alert type="success" >}}
+```{r bluecars}
+summary(cars)
+```
+{{< /alert >}}
+
+```{r normal}
 summary(cars)
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+----------------------------------------------------------------------------------------------
+<!--
+How to Span:
+<span class="firstcharacter">S</span>
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Shortcode for images:
+{{< img src="ibs.png" width="20%" align="center" title="Introductory Business Statistics" >}}
 
 
+SHORT CODES for highlighting stuff:
+{{< alert type="success" >}} This is sample alert with type="success". {{< /alert >}}
+{{< alert type="danger" >}} This is sample alert with type="danger". {{< /alert >}}
+{{< alert type="warning" >}} This is sample alert with type="warning". {{< /alert >}}
+{{< alert type="info" >}} This is sample alert with type="info". {{< /alert >}}
+{{< alert type="dark" >}} This is sample alert with type="dark". {{< /alert >}}
+{{< alert type="primary" >}} This is sample alert with type="primary". {{< /alert >}}
+{{< alert type="secondary" >}} This is sample alert with type="secondary". {{< /alert >}}
+
+-->
 
 <style>
 body {
