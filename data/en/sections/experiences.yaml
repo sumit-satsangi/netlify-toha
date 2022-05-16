@@ -10,27 +10,29 @@ section:
 
 # Your experiences
 experiences:
+
 - company:
     name: Saama Technologies
     url: "https://www.saama.com"
     location: Pune, Maharashtra, India
     # company overview
-    overview: 
-
+    overview: Power BI and Engagement Lead
+  
   positions:
   - designation: Power BI & Engagement Lead
     start: Mar 2022
+    end: May 2022
 #    end: Mar 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-        - Work as an Engagement Lead for complete Stakeholder Management
-        - Understanding business requirement and converting it in meaningful, quantifiable Jira Stories and tasks
-        - Responsible for Delivery and performance
-        - Work with CXO level focus groups for business strat meets.
-        - Create Power BI reports and dashboards for end users.
-        - Technology used: Snowflake, Jira, Confluence, Power BI
+    - Work as an Engagement Lead for complete Stakeholder Management
+    - Understanding business requirement and converting it in meaningful, quantifiable Jira Stories and tasks
+    - Responsible for Delivery and performance
+    - Work with CXO level focus groups for business strat meets.
+    - Create Power BI reports and dashboards for end users.
+    - "Technology used: Snowflake, Jira, Confluence, Power BI"
 
 - company:
     name: Genpact
@@ -47,14 +49,14 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-        - Lead a team of Analysts and Sr. Analysts
-        - Developing Productivity, Income Leakage, Service Level Agreement, BSA/MSA and Operational Metrics.
-        - Understanding Stakeholders request and converting that to tangible inferences. Into Inferential and Predictive Analytics.
-        - Automation of Standard Work. </p>
-        - Dashboards- Power BI, Tableau, AWS Quicksight, Excel
-        - Reports/Analysis- R, Power Query, Alteryx, Excel
-        - Automation- Alteryx, VBA, Box integration with Power BI
-        - Languages- VBA, R, SQL, DAX, MQuery
+    - Lead a team of Analysts and Sr. Analysts
+    - Developing Productivity, Income Leakage, Service Level Agreement, BSA/MSA and Operational Metrics.
+    - Understanding Stakeholders request and converting that to tangible inferences. Into Inferential and Predictive Analytics.
+    - Automation of Standard Work. </p>
+    - Dashboards- Power BI, Tableau, AWS Quicksight, Excel
+    - Reports/Analysis- R, Power Query, Alteryx, Excel
+    - Automation- Alteryx, VBA, Box integration with Power BI
+    - Languages- VBA, R, SQL, DAX, MQuery
 
   - designation: Assistant Manager (Senior Business Analyst)
     start: Jun 2017
