@@ -40,12 +40,12 @@ head(iris, 6)
 ```
 
 {{< alert type="success" >}}
-```{r bluecars}
+```{r bluecars, background='#999999'}
 summary(cars)
 ```
 {{< /alert >}}
 
-```{r normal}
+```{r normal, background='#999999'}
 summary(cars)
 ```
 
