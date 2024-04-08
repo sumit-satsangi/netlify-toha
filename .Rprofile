@@ -20,7 +20,7 @@ options(
   blogdown.method = 'markdown'
 )
 
-options(blogdown.ext = ".Rmd", blogdown.author = "Sumit S Satsangi",
+options(blogdown.ext = ".Rmd", blogdown.author = "Sumit Satsangi",
         blogdown.subdir = "blog")
 
 options(blogdown.hugo.version = "0.91.2")
