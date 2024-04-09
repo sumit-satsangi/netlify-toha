@@ -16,9 +16,9 @@ skills:
   summary: "Identifying metrics and creating KPI Dashboards in Tableau to look at historical trends and analyse Ops performance."
 #  url: "https://kubernetes.io/"
 
-- name: AWS Quicksight
-  logo: /images/sections/skills/QS.svg
-  summary: "Creating Business Level Service Agreement Dashboards to look at Critical and Key performance metrics."
+- name: Alteryx
+  logo: /images/sections/skills/alteryx.png
+  summary: "A small stint with Alteryx to do the heavy lifting of the Incentives file. The output is pushed to Power BI for dashboards."
 #  url: "https://golang.org/"
 
 - name: Power BI
@@ -30,9 +30,9 @@ skills:
   summary: "I use R primarily for metrics calculations and data cleansing."
 #  url: "https://www.docker.com/"
 
-- name: Alteryx
-  logo: /images/sections/skills/alteryx.png
-  summary: "A small stint with Alteryx to do the heavy lifting of the Incentives file. The output is pushed to Power BI for dashboards."
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Integral part of professional life."
 #  url: "https://prometheus.io/"
 
 - name: Excel

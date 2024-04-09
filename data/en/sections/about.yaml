@@ -25,7 +25,7 @@ summary: 'Highly organized, analytic and goal-oriented professional, equipped wi
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "sumit.satsangi@gmail.com"
+  url: "sumitsatsangi@aol.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -72,8 +72,8 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: AWS Quicksight
-  percentage: 90
+  name: SQL
+  percentage: 55
   color: yellow
 
 - type: soft-skill-indicator
@@ -83,7 +83,7 @@ badges:
 
 - type: soft-skill-indicator
   name: R
-  percentage: 85
+  percentage: 65
   color: pink
 
 - type: soft-skill-indicator
@@ -93,7 +93,7 @@ badges:
 
 - type: soft-skill-indicator
   name: Advance Excel
-  percentage: 100
+  percentage: 90
   color: "#008080"
 #   
 # you can also provide color code instead of the color name
