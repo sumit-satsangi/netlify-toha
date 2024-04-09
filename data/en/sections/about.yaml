@@ -72,8 +72,8 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: SQL
-  percentage: 55
+  name: Alteryx
+  percentage: 45
   color: yellow
 
 - type: soft-skill-indicator
@@ -87,8 +87,8 @@ badges:
   color: pink
 
 - type: soft-skill-indicator
-  name: Alteryx
-  percentage: 40
+  name: SQL
+  percentage: 55
   color: green
 
 - type: soft-skill-indicator
