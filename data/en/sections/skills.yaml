@@ -31,7 +31,7 @@ skills:
 #  url: "https://www.docker.com/"
 
 - name: SQL
-  logo: /images/sections/skills/sql.png
+  logo: /images/sections/skills/SQL.png
   summary: "Integral part of professional life."
 #  url: "https://prometheus.io/"
 
