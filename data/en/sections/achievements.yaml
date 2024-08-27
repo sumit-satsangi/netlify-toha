@@ -1,7 +1,7 @@
 # section information
 section:
-  name: Achievements
-  id: achievements
+  name: Certifications
+  id: certifications
   enable: true
   weight: 8
   showOnNavbar: false
@@ -9,7 +9,7 @@ section:
   # hideTitle: true
 
 # Your achievements achievements
-achievements:
+certifications:
 - title: Best Presenter
   image: /images/sections/achievements/presenter.jpg
   summary: Best presenter in the 2020 XYZ conference.
