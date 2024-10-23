@@ -4,6 +4,20 @@ languageCode: en-us
 title: "Sumit Satsangi"
 theme: "toha"
 
+# Use Hugo modules to add theme
+module:
+  imports:
+  - path: github.com/hugo-toha/toha/v4
+  mounts:
+  - source: static/files
+    target: static/files
+  - source: ./node_modules/flag-icons/flags
+    target: static/flags
+  - source: ./node_modules/@fontsource/mulish/files
+    target: static/files
+  - source: ./node_modules/katex/dist/fonts
+    target: static/fonts
+
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 disableLanguages : ['bn', 'ja']
@@ -65,7 +79,7 @@ params:
   gitRepo: https://github.com/sumit-satsangi/netlify-toha
 
   # Default branch of your Git repo
-  gitBranch: source
+  gitBranch: main #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>changed "source" to main
 
   # Configure various features of this theme
   features:
